@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopno IT Registration Form</title>
+        
+        <!-- Start CSS -->
+        <link href="assets/css/form.css" rel="stylesheet">
+        <!-- End CSS -->
+        
+</head>
+<body>
+    <!-- Start slider section -->
+        <div class="slider">
+            <img src="assets/img/slider.png" alt="slider">
+        </div>
+    <!-- Start slider section -->
+
+    <!-- Start form section -->
+        <div class="registration-form">
+           <h2>Shopno IT Registration Form</h2>
+              <form action="form.html">
+
+                <div class="name">
+                    <div class="fname">
+                        <label for="fst">First Name:</label>
+                        <input type="text" id="fst" required>
+                    </div>
+                    <div class="lname">
+                        <label for="lst">Last Name:</label>
+                        <input type="text" id="lst" required>
+                    </div>
+                </div>
+                    <div class="step1">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="step1">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="step1">
+                        <label for="user">Username:</label>
+                        <input type="text" id="user" aria-readonly="true">
+                    </div>
+                    <div class="step2">
+                        <b>Gender:</b>
+
+                        <input type="radio" id="male" value="male" name="gender">
+                        <label for="male">Male</label>
+
+                        <input type="radio"  id="female" value="female" name="gender">
+                        <label for="female">Female</label>
+                        
+                        <input type="radio"  id="other" value="other" name="gender">
+                        <label for="other">Others</label>
+                        <br><br>
+                    </div>
+                    <div class="step2">
+                        <b>Religion:</b>
+
+                        <input type="radio" id="islam" value="islam" name="religion">
+                        <label for="islam">Islam</label>
+
+                        <input type="radio"  id="hindu" value="hndu" name="religion">
+                        <label for="hindu">Hindu</label>
+                        
+                        <input type="radio"  id="others" value="others" name="religion">
+                        <label for="others">Others</label>
+                        <br><br>
+                    </div>
+                    
+                    <!-- start  Department Area-->
+                         <b>Department:</b>
+                            <select name="department">
+                                <option>Web Design</option>
+                                <option>Digital Marketing</option>
+                                <option>App Development</option>
+                                <option>Video Editing</option>
+                            </select>
+                            <br><br>
+
+                    <!-- End Department Area-->
+                   
+                     <!-- start Comment Area-->
+                       <div class="text-area">
+                            <label for="comment">Comment:</label>
+                            <textarea name="comment" id="comment"></textarea>
+                       </div>
+                      <!-- End Comment Area-->
+
+                      <!-- Start Submit Area -->
+                             <div class="submit">
+                                <input type="submit" value="Submit">
+                             </div>
+
+                       <!-- Start Submit Area -->
+             </form>
+        </div>
+
+    
+</body>
+</html>
